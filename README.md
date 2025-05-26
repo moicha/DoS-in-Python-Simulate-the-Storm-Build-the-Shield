@@ -14,7 +14,7 @@ Prerequisites:
 - pyngrok: Python wrapper for ngrok, which exposes local servers to the public internet through secure tunnels
 
 3. ngrok config add-authtoken #YOUR_TOKEN
-- ngrok will associate tunnels with individual accountand provide access to features like more connections, and rate limits.
+- ngrok will associate tunnels with individual account and provide access to features like more connections, and rate limits.
 
 
 
