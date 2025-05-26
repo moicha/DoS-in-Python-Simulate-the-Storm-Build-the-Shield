@@ -2,7 +2,7 @@
 
 
 
-Flask app runs on localhost (127.0.0.1), and only a local machine can reach it. Hence too simulate requests from the "outside world" (e.g., for testing DDoS attack scenario), ngrok gives creates a public URL that tunnels into the local Flask app.
+Flask app runs on localhost (127.0.0.1), and only a local machine can reach it. Hence to simulate requests from the "outside world" (e.g., for testing DDoS attack scenario), ngrok gives creates a public URL that tunnels into the local Flask app.
 _________________________________________________________________________________________________________________________________________
 Prerequisites:
 1. Create login to Ngrok (or similar): This will help to craete a dummy web app server that we will launch DDoS on.
