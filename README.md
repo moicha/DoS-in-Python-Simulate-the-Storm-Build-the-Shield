@@ -18,3 +18,10 @@ Prerequisites:
 
 
 _________________________________________________________________________________________________________________________________________
+Scripts execution order: 
+
+1. FlaskWebServer.py
+  - Runs a Flask web app locally.
+  - Limits traffic to 5 requests per minute per IP.
+  - Opens a public link (via ngrok) so the app is reachable from the internet.
+  - Access the web app without deploying it and testing rate-limiting.
