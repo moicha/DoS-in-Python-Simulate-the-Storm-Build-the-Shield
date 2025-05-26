@@ -25,3 +25,6 @@ Scripts execution order:
   - Limits traffic to 5 requests per minute per IP.
   - Opens a public link (via ngrok) so the app is reachable from the internet.
   - Access the web app without deploying it and testing rate-limiting.
+2. DoS_Sim.py
+- Send high number of HTTP requests to a ngrok URL using multithreading.
+- Prints the HTTP status code. 
