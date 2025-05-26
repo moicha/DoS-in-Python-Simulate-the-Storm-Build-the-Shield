@@ -1,5 +1,5 @@
 # DDoS-in-Python-Simulate-the-Storm-Build-the-Shield
-Scripts to explore both sides of cybersecurity using Python coding.
+
 
 
 Flask app runs on localhost (127.0.0.1), and only a local machine can reach it. Hence too simulate requests from the "outside world" (e.g., for testing DDoS attack scenario), ngrok gives creates a public URL that tunnels into the local Flask app.
