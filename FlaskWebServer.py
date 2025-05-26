@@ -9,10 +9,6 @@ from pyngrok import ngrok
 # Initialize Flask App
 app = Flask(__name__)
 
-# Add rate limiting
-limiter = Limiter(get_remote_address, app=app, default_limits=["5 per minute"])
-
-
 # Define the homepage (/) of the web app and show a sample welcome message
 @app.route("/")
 def home():
